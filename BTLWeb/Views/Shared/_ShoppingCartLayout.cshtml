@@ -84,16 +84,6 @@
                 </a>
             </div>
             <div class="col-lg-4 col-6 text-left">
-                @*<form action="">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for products">
-                        <div class="input-group-append">
-                            <span class="input-group-text bg-transparent text-primary">
-                                <i class="fa fa-search"></i>
-                            </span>
-                        </div>
-                    </div>
-                </form>*@
                 @using (Html.BeginForm("Search", "Home"))
                 {
                     <div class="input-group">
@@ -157,7 +147,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a asp-controller="Home" asp-action="Index" class="nav-item nav-link">Home</a>
-                            <a asp-controller="Home" asp-action="Shop" class="nav-item nav-link">Shop</a>
+                            <a asp-controller="Home" asp-action="Index" class="nav-item nav-link">Shop</a>
                             <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
@@ -218,7 +208,7 @@
                             <th>Xóa</th>
                         </tr>
                     </thead>
-                    <tbody class="align-middle" id="showCart">
+                    <tbody class="align-middle">
                         @RenderBody()
                     </tbody>
                     
@@ -338,6 +328,7 @@
 
 
     <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="../Camera/lib/easing/easing.min.js"></script>
@@ -350,7 +341,6 @@
 
     <!-- Template Javascript -->
     <script src="../Camera/js/ShoppingCart.js"></script>
-    <script src="../Camera/js/main.js"></script>
 </body>
 
 </html>

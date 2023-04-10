@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HITEACH\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj": {}
+    "C:\\Users\\Dinh\\Documents\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj": {}
   },
   "projects": {
-    "C:\\HITEACH\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj": {
+    "C:\\Users\\Dinh\\Documents\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HITEACH\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Dinh\\Documents\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj",
         "projectName": "BTLWeb",
-        "projectPath": "C:\\HITEACH\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj",
+        "projectPath": "C:\\Users\\Dinh\\Documents\\BTL-Web-master\\BTLWeb\\BTLWeb.csproj",
         "packagesPath": "C:\\Users\\Dinh\\.nuget\\packages\\",
-        "outputPath": "C:\\HITEACH\\BTL-Web-master\\BTLWeb\\obj\\",
+        "outputPath": "C:\\Users\\Dinh\\Documents\\BTL-Web-master\\BTLWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
